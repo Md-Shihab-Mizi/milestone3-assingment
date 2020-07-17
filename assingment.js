@@ -9,7 +9,7 @@ function feetToMile(feet){
 var result = feetToMile(1);
 console.log(result);
 
-// feetToMile start
+// feetToMile end
 
 
 
@@ -52,7 +52,7 @@ function brickCalculator(floor){
     }
     return totalBrick;
 }
-var result = brickCalculator(26);
+var result = brickCalculator(21);
 console.log(result);
 
 // brickCalculator end
