@@ -2,11 +2,11 @@
 
 
 function feetToMile(feet){
-    var mile = feet * 0.00189394;
+    const mile = feet * 0.00189394;
     return mile;
 }
 
-var result = feetToMile(3);
+var result = feetToMile(1);
 console.log(result);
 
 // feetToMile start
@@ -32,8 +32,8 @@ console.log(result);
 // brickCalculator start
 
 function brickCalculator(floor){
-    var totalHeight;
-    var totalBrick;
+    let totalHeight;
+    let totalBrick;
     if(floor<=10){
         totalHeight = floor * 15;
         totalBrick = totalHeight * 1000;
@@ -52,7 +52,7 @@ function brickCalculator(floor){
     }
     return totalBrick;
 }
-var result = brickCalculator(21);
+var result = brickCalculator(26);
 console.log(result);
 
 // brickCalculator end
